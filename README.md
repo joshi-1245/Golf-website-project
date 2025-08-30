@@ -26,15 +26,12 @@ A modern, interactive website for Sidcup Family Golf featuring advanced animatio
 - Quick reply buttons
 - Typing indicators
 
-## 🚀 Live Demo
-
-[View Live Demo](https://your-username.github.io/golf-website-project)
 
 ## 📸 Screenshots
-
-![Homepage](https://via.placeholder.com/800x400?text=Homepage+Screenshot)
-![AI Assistant](https://via.placeholder.com/400x300?text=AI+Assistant)
-![Mobile View](https://via.placeholder.com/300x600?text=Mobile+View)
+<img width="1920" height="1080" alt="Screenshot (379)" src="https://github.com/user-attachments/assets/3ff798aa-bf6b-41b5-a9e4-91702a2eb511" />
+<img width="1920" height="1080" alt="Screenshot (377)" src="https://github.com/user-attachments/assets/4d7e9dbf-a0ce-4fdc-9a24-c13a50ea3ebb" />
+<img width="1920" height="1080" alt="Screenshot (381)" src="https://github.com/user-attachments/assets/193078e3-d088-4eb8-a798-f1c67c612809" />
+<img width="1920" height="1080" alt="Screenshot (367)" src="https://github.com/user-attachments/assets/158c241f-d7a8-48fb-aa22-9eec9386add0" />
 
 ## 🛠️ Technologies Used
 
