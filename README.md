@@ -1,4 +1,4 @@
-# 🏌️‍♂️ Sidcup Family Golf Website
+# 🏌️‍♂️ Interactive Golf Facility Platform
 
 A modern, interactive website for Sidcup Family Golf featuring advanced animations, AI assistant, weather integration, and responsive design.
 
