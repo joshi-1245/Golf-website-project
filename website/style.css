@@ -12,6 +12,7 @@ body {
 
   width: 100%;
 }
+
 *::selection {
   background-color: #fff;
   color: #95c11e;
@@ -22,14 +23,17 @@ body::-webkit-scrollbar {
   width: 8px;
   background: #95c11e;
 }
+
 body::-webkit-scrollbar-thumb {
   background-color: #fff;
 
   border-radius: 50px;
 }
+
 body {
   overflow-x: hidden;
 }
+
 #cursor {
   height: 20px;
   width: 20px;
@@ -39,6 +43,7 @@ body {
   z-index: 99;
   transition: all linear 0.1s;
 }
+
 #cursor-blur {
   height: 500px;
   width: 500px;
@@ -49,6 +54,7 @@ body {
   z-index: 9;
   transition: all linear 0.4s;
 }
+
 #nav {
   height: 130px;
   width: 100%;
@@ -61,15 +67,18 @@ body {
   justify-content: flex-start;
   z-index: 999;
 }
+
 #nav img {
   height: 4.5vw;
 }
+
 #nav h4 {
   text-transform: uppercase;
   font-weight: 500;
   cursor: pointer;
   font-size: 1.15vw;
 }
+
 video {
   height: 100%;
   width: 100%;
@@ -94,11 +103,13 @@ video {
   text-align: center;
   z-index: 10;
 }
+
 #page1 h1 {
   font-size: 7.5vw;
   font-weight: 900;
   position: relative;
 }
+
 #page1 h1::before {
   content: "EAT. DRINK. PLAY.";
   position: absolute;
@@ -108,17 +119,20 @@ video {
   -webkit-text-stroke: 1.5px #95c11e;
   z-index: -1;
 }
+
 #page1 h2 {
   font-size: 30px;
   font-weight: 800;
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
 #page1 p {
   font-size: 1.2vw;
   font-weight: 500;
   width: 40%;
 }
+
 #page1 #arrow {
   height: 250px;
   width: 250px;
@@ -133,14 +147,17 @@ video {
   border-radius: 50%;
   transition: all ease 0.5s;
 }
+
 #page1 #arrow i {
   font-size: 50px;
   font-weight: 100;
 }
+
 #page1 #arrow:hover {
   scale: 0.4;
   background-color: #95c11e;
 }
+
 #page2 {
   min-height: 100vh;
   width: 100%;
@@ -155,9 +172,11 @@ video {
   position: relative;
   z-index: 10;
 }
+
 #scroller::-webkit-scrollbar {
   display: none;
 }
+
 #scroller-in {
   display: inline-block;
   white-space: nowrap;
@@ -177,6 +196,7 @@ video {
   color: #000;
   -webkit-text-stroke: 2px #ffffff;
 }
+
 #scroller h4:hover {
   color: #95c11e;
   -webkit-text-stroke: 2px #95c11e;
@@ -186,6 +206,7 @@ video {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
@@ -202,21 +223,25 @@ video {
   z-index: 10;
   justify-content: space-around;
 }
+
 #about-us img {
   height: 220px;
   width: 220px;
   border-radius: 20px;
   object-fit: cover;
 }
+
 #about-us-in {
   width: 50%;
   text-align: center;
 }
+
 #about-us-in h3 {
   font-size: 54px;
   font-weight: 800;
   margin-bottom: 30px;
 }
+
 #about-us-in p {
   font-size: 20px;
   line-height: 26px;
@@ -231,8 +256,9 @@ video {
   gap: 70px;
   position: relative;
   z-index: 10;
-  
+
 }
+
 .card {
   height: 80%;
   width: 24%;
@@ -243,15 +269,19 @@ video {
   overflow: hidden;
   transition: all ease 0.6s;
 }
+
 #card1 {
   background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
+
 #card2 {
   background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4-1024x1024.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
+
 #card3 {
   background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -261,6 +291,7 @@ video {
   opacity: 0;
   transition: all ease 0.6s;
 }
+
 .overlay h4 {
   color: #000;
   font-size: 36px;
@@ -269,13 +300,16 @@ video {
   margin-bottom: 20px;
   font-weight: 800;
 }
+
 .overlay p {
   color: #000;
   font-size: 20px;
 }
+
 .card:hover .overlay {
   opacity: 1;
 }
+
 .card:hover {
   transform: rotate3d(-1, 1, 0, 26deg) !important;
 }
@@ -288,6 +322,7 @@ video {
   /* background-color: red; */
   background: linear-gradient(to left bottom, #119f3a, #ace022);
 }
+
 #green-div h4 {
   width: 45%;
   line-height: 50px;
@@ -297,6 +332,7 @@ video {
   font-size: 27px;
   text-transform: uppercase;
 }
+
 #green-div img {
   height: 100%;
   object-fit: cover;
@@ -312,7 +348,8 @@ video {
   position: relative;
   justify-content: center;
 }
-#page3 > p {
+
+#page3>p {
   font-size: 35px;
   font-weight: 700;
   width: 55%;
@@ -324,15 +361,18 @@ video {
   position: absolute;
   height: 60px;
 }
+
 #page3 #colon1 {
   left: 15%;
   top: 25%;
 }
+
 #page3 #colon2 {
   bottom: 30%;
   right: 15%;
 }
-#page4{
+
+#page4 {
   height: 30vh;
   width: 100%;
   display: flex;
@@ -342,15 +382,17 @@ video {
   position: relative;
 
 }
-.elem{
+
+.elem {
   height: 70%;
   width: 26%;
   overflow: hidden;
   border-radius: 20px;
-  position:relative;
+  position: relative;
 
 }
-.elem h2{
+
+.elem h2 {
   height: 100%;
   width: 100%;
   background-color: #95c11e;
@@ -364,21 +406,25 @@ video {
   z-index: 10;
   transition: all ease 0.5s;
 }
-.elem img{
+
+.elem img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   transition: all ease 0.5s;
   scale: 1.1;
 }
-.elem:hover h2{
+
+.elem:hover h2 {
   color: #fff;
   background-color: transparent;
 }
-.elem:hover h2{
+
+.elem:hover h2 {
   scale: 1;
 }
-#page4 h1{
+
+#page4 h1 {
   font-size: 120px;
   position: absolute;
   top: -15%;
@@ -387,6 +433,7 @@ video {
   color: #000;
   -webkit-text-stroke: 2px #fff;
 }
+
 #footer {
   height: 40vh;
   width: 100%;
@@ -398,15 +445,18 @@ video {
   gap: 6.5vw;
   padding: 0 100px;
 }
-#footer > img {
+
+#footer>img {
   position: absolute;
   left: 0;
   height: 100%;
   z-index: 0;
 }
+
 #f1 img {
   height: 100px;
 }
+
 #f1,
 #f2,
 #f3,
@@ -416,6 +466,7 @@ video {
   z-index: 99;
   /* background-color: red; */
 }
+
 #f2 h3 {
   font-size: 1.6vw;
   white-space: nowrap;
@@ -433,6 +484,7 @@ video {
   font-weight: 800;
   margin-bottom: 8px;
 }
+
 #f4 h4 {
   font-size: 1vw;
   white-space: nowrap;
@@ -443,3 +495,572 @@ video {
   margin-bottom: 8px;
 }
 
+
+/* Weather Widget Styles */
+#weather-widget {
+  position: absolute;
+  right: 80px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 15px 25px;
+  border-radius: 35px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(149, 193, 30, 0.5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  min-width: 180px;
+}
+
+#weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-weight: 600;
+}
+
+#weather-temp {
+  font-size: 50px;
+  font-weight: 700;
+  color: #95c11e;
+}
+
+#weather-desc {
+  font-size: 18px;
+  text-transform: capitalize;
+  opacity: 0.95;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+#weather-icon {
+  font-size: 42px;
+  animation: weatherPulse 3s infinite;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+@keyframes weatherPulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+/* AI Assistant Styles */
+#ai-assistant-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: #95c11e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+#ai-assistant-btn:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+#ai-assistant-btn i {
+  font-size: 32px;
+  color: #000;
+}
+
+#ai-chat-container {
+  position: fixed;
+  bottom: 150px;
+  right: 30px;
+  width: 350px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+  border: 1px solid #95c11e;
+}
+
+#ai-chat-header {
+  padding: 15px;
+  background: #95c11e;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ai-chat-header h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#ai-close-chat {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#ai-chat-messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ai-message {
+  padding: 10px 15px;
+  border-radius: 18px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.ai-user {
+  background: #95c11e;
+  color: #000;
+  align-self: flex-end;
+  border-bottom-right-radius: 5px;
+}
+
+.ai-bot {
+  background: #2c2c2c;
+  align-self: flex-start;
+  border-bottom-left-radius: 5px;
+}
+
+#ai-chat-input {
+  display: flex;
+  padding: 15px;
+  gap: 10px;
+  border-top: 1px solid #333;
+}
+
+#ai-user-input {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background: #2c2c2c;
+  color: #fff;
+  outline: none;
+}
+
+#ai-send-btn {
+  background: #95c11e;
+  color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#ai-send-btn:hover {
+  background: #7da01a;
+  transform: scale(1.1);
+}
+
+/* Enhanced AI Assistant Styles */
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #ff4444;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.typing-indicator {
+  padding: 15px !important;
+}
+
+.typing-dots {
+  display: flex;
+  gap: 4px;
+}
+
+.typing-dots span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #95c11e;
+  animation: typing 1.4s infinite ease-in-out;
+}
+
+.typing-dots span:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.typing-dots span:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+@keyframes typing {
+
+  0%,
+  80%,
+  100% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.quick-replies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.quick-reply-btn {
+  background: rgba(149, 193, 30, 0.2);
+  border: 1px solid #95c11e;
+  color: #95c11e;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.quick-reply-btn:hover {
+  background: #95c11e;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+@keyframes messageSlide {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.ai-message strong {
+  color: #95c11e;
+  font-weight: 700;
+}
+
+.ai-bot {
+  position: relative;
+}
+
+.ai-bot::before {
+  content: "🤖";
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+.ai-user::after {
+  content: "👤";
+  position: absolute;
+  right: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+}
+
+/* Voice Recognition Styles */
+#ai-voice-btn {
+  background: rgba(149, 193, 30, 0.2);
+  border: 1px solid #95c11e;
+  color: #95c11e;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#ai-voice-btn:hover {
+  background: #95c11e;
+  color: #000;
+}
+
+#voice-indicator {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  z-index: 1001;
+  color: white;
+}
+
+.voice-animation {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 15px;
+}
+
+.voice-bar {
+  width: 4px;
+  height: 20px;
+  background: #95c11e;
+  border-radius: 2px;
+  animation: voiceWave 1s infinite ease-in-out;
+}
+
+.voice-bar:nth-child(1) {
+  animation-delay: -0.4s;
+}
+
+.voice-bar:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.voice-bar:nth-child(3) {
+  animation-delay: -0.2s;
+}
+
+.voice-bar:nth-child(4) {
+  animation-delay: -0.1s;
+}
+
+@keyframes voiceWave {
+
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.4);
+  }
+
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+/* Header Actions */
+.header-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.header-actions span {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  transition: background 0.3s ease;
+}
+
+.header-actions span:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Restore Chat Button */
+.restore-chat-btn {
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: auto;
+}
+
+/* Suggestion Dropdown */
+.suggestion-dropdown {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background: #2c2c2c;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid #95c11e;
+  max-height: 120px;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.suggestion-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #444;
+  transition: background 0.3s ease;
+  font-size: 14px;
+}
+
+.suggestion-item:hover {
+  background: rgba(149, 193, 30, 0.2);
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+/* Enhanced Chat Input */
+#ai-chat-input {
+  position: relative;
+}
+
+/* Scrollbar styling for chat */
+#ai-chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+#ai-chat-messages::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+#ai-chat-messages::-webkit-scrollbar-thumb {
+  background: #95c11e;
+  border-radius: 3px;
+}
+
+#ai-chat-messages::-webkit-scrollbar-thumb:hover {
+  background: #7da01a;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  #weather-widget {
+    right: 15px;
+    padding: 12px 20px;
+    gap: 12px;
+    min-width: 150px;
+  }
+
+  #weather-temp {
+    font-size: 24px;
+  }
+
+  #weather-desc {
+    font-size: 14px;
+  }
+
+  #weather-icon {
+    font-size: 32px;
+  }
+
+  #ai-chat-container {
+    width: 90vw;
+    height: 70vh;
+    right: 5vw;
+    bottom: 130px;
+  }
+
+  #ai-assistant-btn {
+    bottom: 70px;
+    right: 20px;
+    width: 65px;
+    height: 65px;
+  }
+  
+  #ai-assistant-btn i {
+    font-size: 28px;
+  }
+
+  .quick-reply-btn {
+    font-size: 11px;
+    padding: 6px 10px;
+  }
+
+  #ai-voice-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ai-message.ai-bot {
+    margin-left: 20px;
+  }
+
+  .ai-message.ai-user {
+    margin-right: 20px;
+  }
+
+  #voice-indicator {
+    width: 80vw;
+    padding: 20px;
+  }
+}
